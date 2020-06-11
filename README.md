@@ -1,6 +1,7 @@
 # ServerSideFramework
 # About the Framework
 In web application development while writing the code for backend the programmer needs to keep many things in his mind. For example, he has to remember: 
+
 1:-the code related to servlet mapping while writing the deployment descriptor for his application.
 
 2:-code for extracting the data when request is received by the servlet.
@@ -15,15 +16,22 @@ So if the person who is hired for backend programming is not experienced or if h
 
 
 # Requirements:-
+
 1:-Tomcat must be installed in your system.
 
 # Steps to use this framework:-
+
 1: -Tomcat must be installed in your system.
-Steps to use this framework:- 
+
+# Steps to use this framework:- 
+
 1: First of all you need to download the zip file from this repository. 
+
 2:-then you have to extract the zip folder. Then navigate to the folder and find a file name ServerSideFramework.jar and place this file in the following path: - 
 path to Tomcat9\webapps\ProjectFolder\WEB-INF\lib 
+
 3: - place deployment descriptor in WEB-INF folder. Also place ServerConf.conf file in classes folder. 
+
 4: - now your system is ready to use this framework.
 
 
