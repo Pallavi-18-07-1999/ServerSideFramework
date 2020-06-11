@@ -116,12 +116,31 @@ System.out.println(rollNumber);
 ```
 
 # File Upload 
-if you want to upload a file then you have to use UploadAnnotation.
+if you want to upload a file then you have to use UploadAnnotation. 
+
+```
+package com.thinking.machines.AppliedAnnotation;
+import com.thinking.machines.annotations.*;
+import java.io.*;
+import javax.servlet.http.*;
+
+@Path("/Upload")
+public class UploadFile
+{
+@Path("/Kite") @ResponseType("text/html") @UploadAnnotation("/WEB-INF/BufferUploads")
+public void doSomething(File[] f,@RequestData("rr") int rollNumber,HttpServletRequest request)
+{
+System.out.println("chala");
+System.out.println(rollNumber);
+System.out.println(request.getParameter("rr"));
+}
+}
+```
 
 
-viewing pdf file:-
+# Pdf 
 
-if you want to have a look on the services you have creates 
+If you want to have a look on the various service that you have created or if you want to have information about the errors you have done while creating those services then you just have to execute a program named as ServerSideFrameworkPdfMaker . On execution 2 pdf filed (Service.pdf,,Error.pdf) will be generated.
 
 
 
