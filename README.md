@@ -19,6 +19,9 @@ So if the person who is hired for backend programming is not experienced or if h
 
 1:-Tomcat must be installed in your system.
 
+2:- download itext .
+
+
 # Steps to use this framework:-
 
 1: -Tomcat must be installed in your system.
