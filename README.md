@@ -71,11 +71,10 @@ you have to apply RequestData annotation on those parameters whose data type fal
 
 2: -String type.
 
-Forward Annotation: - if you want to forward the request to any other service or jsp/html file then you have to apply this annotation.
+# Forward Annotation: 
 
+if you want to forward the request to any other service or jsp/html file then you have to apply this annotation.
 
-Forward Annotation:-
-if you wanrt to forward the request to any other service or jsp/html file then you have to apply this annotaion.
 
 ```
 package com.thinking.machines.AppliedAnnotation;
