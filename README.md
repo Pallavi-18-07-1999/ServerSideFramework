@@ -2,9 +2,13 @@
 # About the Framework
 In web application development while writing the code for backend the programmer needs to keep many things in his mind. For example, he has to remember: 
 1:-the code related to servlet mapping while writing the deployment descriptor for his application.
+
 2:-code for extracting the data when request is received by the servlet.
+
 3: -code when request has to be forwarded. 
+
 4: - code for file upload etc. 
+
 So if the person who is hired for backend programming is not experienced or if his coding skills are not up to the mark then there are chances that he will face various problems.  So, I have created a framework solves these issues. So basically this framework eases the work of backend programmer.
 
 
