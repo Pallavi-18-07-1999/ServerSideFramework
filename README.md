@@ -24,4 +24,21 @@ How to use this framework?
 
 in this framework you can create various services .
 sample example of a service:-
+package com.thinking.machines.AppliedAnnotation;
+import com.thinking.machines.annotations.*;
+```
+import java.io.*;
+import javax.servlet.http.*;
 
+@Path("/Employee")
+public class Employee
+{
+@Path("/Kite") @ResponseType("text/html") 
+public void doSomething(HttpServletRequest request,@RequestData("rr")int rollNumber)
+{
+System.out.println("employee chala");
+System.out.println(request);
+System.out.println(rollNumber);
+}
+}
+```
