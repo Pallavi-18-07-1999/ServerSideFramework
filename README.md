@@ -41,7 +41,7 @@ path to Tomcat9\webapps\ProjectFolder\WEB-INF\lib
 While writing the code for services you can use various annotations like :-
 
 
-Path Annotation
+# Path Annotation
 
 ```
 package com.thinking.machines.AppliedAnnotation;
@@ -60,13 +60,19 @@ System.out.println(employeeId);
 }
 }
 ```
-It is mandatory to apply Path Annotation on every class and method.Also you have to include /service in every url-pattern.
-So if the url-pattern is /service/Employee/Kite then doSomething method will be called.
+It is mandatory to apply Path Annotation on every class and method. Also you have to include /service in every url-pattern. So if the url-pattern is /service/Employee/Kite then doSomething method will be called.
 
 
-RequestData Annotation:-
+# RequestData Annotation:-
 
-you have to apply RequestData annotation on those methods whose parameters have primitive data types,their wrappers and String type.
+you have to apply RequestData annotation on those parameters whose data type fall under the following category: -
+
+1 primitive data types, their wrappers
+
+2: -String type.
+
+Forward Annotation: - if you want to forward the request to any other service or jsp/html file then you have to apply this annotation.
+
 
 Forward Annotation:-
 if you wanrt to forward the request to any other service or jsp/html file then you have to apply this annotaion.
