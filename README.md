@@ -93,8 +93,9 @@ System.out.println(rollNumber);
 }
 }
 ```
-Secured Annotation 
-if you want to create a service that should onle be accessed when the user has provided his credentials then you can use secured annotation.
+# Secured Annotation 
+
+if you want to create a service that should be only accessed when the user has provided his credentials then you can use secured annotation.
 
 ``
 package com.thinking.machines.AppliedAnnotation;
